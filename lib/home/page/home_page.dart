@@ -4,7 +4,6 @@ import 'package:atividade_ebac_pre_projeto/home/Widgets/catalog_list.dart';
 import 'package:atividade_ebac_pre_projeto/home/Widgets/custom_appbar.dart';
 import 'package:atividade_ebac_pre_projeto/home/Widgets/custom_refresh.dart';
 import 'package:atividade_ebac_pre_projeto/home/Widgets/recently_added_implementation.dart';
-import 'package:atividade_ebac_pre_projeto/home/page/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 import 'package:shared_preferences/shared_preferences.dart';

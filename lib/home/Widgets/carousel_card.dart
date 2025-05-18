@@ -73,6 +73,7 @@ class CarouselCard extends StatelessWidget {
             decoration: BoxDecoration(
               color: indexSelectedContainer.value == index ? Colors.amber : null,
             ),
+            // ignore: unnecessary_null_comparison
             child: movie == null // Inversão da condição aqui
                 ? _buildPlaceholderImage(context)
                 : ImagemItem(movie: movie, tag: tag),
