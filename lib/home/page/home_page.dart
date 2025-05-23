@@ -74,6 +74,7 @@ _checkLogin() async {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CustomAppBar(
+        
       title: widget.title,
       homePageController: _homePageController,
     ),
